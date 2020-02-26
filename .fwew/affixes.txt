@@ -1,0 +1,88 @@
+fì	this
+tsa	that
+me	two
+pxe	three
+ay	plural
+fay	these
+tsay	those
+fne	type of
+sna	group of
+munsna	pair of
+fra	every
+fray	all of these
+pe	what/which one
+pem	what/which two
+pep	what/which three
+pay	what/which ones
+tsuk	-able
+ketsuk	not -able
+a	attribution marker
+nì	-ly
+ke	un-
+nìk	un-
+sä	make instrumental noun
+tì	make noun / gerund
+le	make adjective
+kaw	none/not one
+äp	reflexive
+eyk	causative
+am	past
+ìm	recent past
+ìy	near future
+ìsy	near future w/ determination
+ay	future
+asy	future w/ determination
+ol	perfective
+er	imperfective
+alm	past perfective
+ìlm	recent past perfective
+ìly	near future perfective
+aly	future perfective
+arm	past imperfective
+ìrm	recent past imperfective
+ìry	near future imperfective
+ary	future imperfective
+iv	subjunctive
+imv	past subjunctive
+iyev	future subjunctive
+ìyev	future subjunctive
+ilv	perfective subjunctive
+irv	imperfective subjunctive
+us	active participle / gerund
+awn	passive participle
+ei	positive affect
+äng	negative affect
+uy	honorific
+ats	inferential
+l	agentive case
+ìl	agentive case
+it	patientive case
+ti	patientive case
+t	patientive case
+ru	dative case
+ur	dative case
+r	dative case
+yä	genitive case
+y	genitive case
+ä	genitive case
+ri	topical case
+ìri	topical case
+ya	collective vocative
+fkeyk	state of the...
+o	some ___s
+pe	what/which
+tsyìp	diminutive
+am	previous
+ay	next
+ve	ordinal marker
+pin	color noun creator
+yu	-er
+tswo	ability to
+an	masculine
+e	feminine
+vi	partive
+lo	multiplicative
+nay	level below
+nga'	adjective derivation
+tu	person noun derivation
+sena	carrier/container

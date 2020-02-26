@@ -249,6 +249,19 @@ func printResults(results []Word) {
 			valNull  = "NULL"
 		)
 
+		affixData, err := os.Open(Text("affixList"))
+		if err != nil {
+			fmt.Println(Text("noDataError"))
+			os.Exit(1)
+		}
+		scanner := bufio.NewScanner(affixData)
+		affixList := make(map[string]string)
+		for scanner.Scan() {
+			line := scanner.Text()
+			fields := strings.Split(line, "\t")
+			affixList[fields[0]] = fields[1]
+		}
+
 		for i, w := range results {
 			num := fmt.Sprintf("[%d]", i+1)
 			nav := fmt.Sprintf("%s", w.Navi)
@@ -296,7 +309,24 @@ func printResults(results []Word) {
 
 			if *useAffixes && len(w.Affixes) > 0 {
 				for key, value := range w.Affixes {
-					out += fmt.Sprintf("    %s: %s\n", key, value)
+					out += fmt.Sprintf("    %s: [", key)
+					firstLoop := true
+					for _, affix := range value {
+						if !firstLoop {
+							out += ", "
+						}
+						if desc, ok := affixList[affix]; ok {
+							out += fmt.Sprintf("%s (%s)", affix, desc)
+						} else {
+							out += fmt.Sprintf("%s", affix)
+						}
+						firstLoop = false
+					}
+					if key == "lenition" {
+						out += " (usually means plural if there's no prefixes)]\n"
+					} else {
+						out += "]\n"
+					}
 				}
 			}
 

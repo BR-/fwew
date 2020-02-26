@@ -147,6 +147,7 @@ func init() {
 	texts["dictionary"] = filepath.Join(texts["dataDir"], "dictionary.txt")
 	texts["dictURL"] = "https://tirea.learnnavi.org/dictionarydata/dictionary.txt"
 	texts["dlSuccess"] = texts["dictURL"] + "\nsaved to\n" + texts["dictionary"] + "\n"
+	texts["affixList"] = filepath.Join(texts["dataDir"], "affixes.txt")
 
 	// general message strings
 	texts["cset"] = "currently set"
