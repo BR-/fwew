@@ -323,7 +323,7 @@ func printResults(results []Word) {
 						firstLoop = false
 					}
 					if key == "lenition" {
-						out += " (usually means plural if there's no prefixes)]\n"
+						out += " (usually means plural if it's a noun and there's no prefixes)]\n"
 					} else {
 						out += "]\n"
 					}
